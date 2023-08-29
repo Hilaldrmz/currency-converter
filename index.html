@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="overlay">
+            <div class="header-wrapper">
+                <div class="header-text">
+                    <span>c</span><span>u</span><span>r</span><span>r</span><span>e</span><span>n</span><span>c</span><span>y</span><span>
+                    </span><span>c</span><span>o</span><span>n</span><span>v</span><span>e</span><span>r</span><span>t</span><span>e</span><span>r</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="container">
+        <div id="main">
+            <div class="content-wrapper">
+                <input type="number" id="amount" placeholder="Amount">
+                <select id="firstCurrencyOption">
+                    <option selected="">USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+
+                <i class="fa-solid fa-arrow-right" style="color: #000000;"></i>
+
+                <select id="secondCurrencyOption">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option selected="">TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+
+                <input type="number" id="result" readonly placeholder="Result">
+
+            </div>
+        </div>
+        <span id="copyright">© Copyright 2023 Hilal Durmaz</span>
+    </div>
+
+
+
+
+
+
+    <script src="JS/currency.js"></script>
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>
